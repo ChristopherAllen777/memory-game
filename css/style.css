@@ -13,9 +13,23 @@ html, body {
 }
 
 body {
-  background: black;
+  background: #304470;
   min-height: 100%;
   font-family: "Arial", sans-serif;
+}
+
+.title {
+  font-family: 'Anton', sans-serif;
+  color: white;
+  font-size: 30pt;
+  font-weight: 400px;
+  text-align: center;
+  background: #bf2f2f;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-bottom: #73d8f5;
+  border-bottom-width: thick dotted 20px;
 }
 
 .wrap {
@@ -92,7 +106,7 @@ body {
           animation-delay: .4s;
 }
 .card .front, .card .back {
-  border: 1px solid black;
+  border: 2px solid black;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   position: absolute;
@@ -235,6 +249,8 @@ body {
 .modal .social li a.twitter:hover {
   background: #73b4ff;
 }
+
+
 
 footer {
   height: 20px;
