@@ -119,66 +119,43 @@
 	};// var Memory = {} end tag
 
 	var cards = [
+
+		// Air Force
 		{
-			name: "“It is clear that our current fleet of 275 ships is insufficient to address the security challenges we face today and that we anticipate in the future.”",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/php-logo_1.png",
+			name: "“It is clear that our current fleet of 275 ships is insufficient to address the security challenges we face today.”",
+			img: "assets/navy.png",
 			id: 1,
 		},
+		// Navy
 		{
-			name: "'Now more than ever, a strong Navy and Marine Corps are central to our nation’s ability to deter adversaries, assure allies, and defend our national interests.'",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/css3-logo.png",
+			name: "”Now more than ever, a strong Navy and Marine Corps are central to our nation’s ability to deter adversaries, assure allies, and defend our national interests.”",
+			img: "assets/airforce.png",
 			id: 2
 		},
+		// Coast Guard
 		{
-			name: "html5",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/html5-logo.png",
+			name: "”The Coast Guard is charged with protecting America’s coastline, waterways, and ports, as well as executing security operations around the world.”",
+			img: "assets/coastguard.png",
 			id: 3
 		},
+		// Navy
 		{
-			name: "jquery",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/jquery-logo.png",
+			name: "”We need a bigger and more capable Navy. Ships and aircraft should be better connected across platforms and warfighting domains.”",
+			img: "assets/specialforces.png",
 			id: 4
 		}, 
-		{
-			name: "javascript",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/js-logo.png",
+		// Army
+		{   
+			name: "”Keeping our military prepared to fight and win – on and under the sea, on land, and in the air, not to mention in cyberspace and outer space – does not happen overnight.”",
+			img: "assets/army.png",
 			id: 5
 		},
+		// Marines
 		{
-			name: "node",
-			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/nodejs-logo.png",
+			name: "”Keeping our military prepared to fight and win – on and under the sea, on land, and in the air, not to mention in cyberspace and outer space – does not happen overnight.”",
+			img: "assets/marines.png",
 			id: 6
 		},
-		// {
-		// 	name: "photoshop",
-		// 	img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/photoshop-logo.png",
-		// 	id: 7
-		// },
-		// {
-		// 	name: "python",
-		// 	img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/python-logo.png",
-		// 	id: 8
-		// },
-		// {
-		// 	name: "rails",
-		// 	img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/rails-logo.png",
-		// 	id: 9
-		// },
-		// {
-		// 	name: "sass",
-		// 	img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/sass-logo.png",
-		// 	id: 10
-		// },
-		// {
-		// 	name: "sublime",
-		// 	img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/sublime-logo.png",
-		// 	id: 11
-		// },
-		// {
-		// 	name: "wordpress",
-		// 	img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/wordpress-logo.png",
-		// 	id: 12
-		// },
 	];
     
 	Memory.init(cards);
