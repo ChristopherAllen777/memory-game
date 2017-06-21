@@ -52,7 +52,7 @@
 					setTimeout(function(){
 						$(".picked").removeClass("picked");
 						Memory.paused = false;
-					}, 600);
+					}, 1100);
 				}
 				if($(".matched").length == $(".card").length){
 					_.win();
@@ -109,7 +109,7 @@
 			this.$cards.each(function(k, v){
 				frag += '<div class="card" data-id="'+ v.id +'"><div class="inside">\
 				<div class="front"><img src="'+ v.img +'"\
-				alt="'+ v.name +'" /></div>\
+				alt="'+ v.name +'" /> '+ v.name +'</div>\
 				<div class="back"><img src="js/wickerlogo.png"\
 				alt="Codepen" /></div></div>\
 				</div>';
@@ -125,30 +125,30 @@
 			id: 1,
 		},
 		{
-			name: "css3",
+			name: "'Now more than ever, a strong Navy and Marine Corps are central to our nation’s ability to deter adversaries, assure allies, and defend our national interests.'",
 			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/css3-logo.png",
 			id: 2
 		},
-		// {
-		// 	name: "html5",
-		// 	img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/html5-logo.png",
-		// 	id: 3
-		// },
-		// {
-		// 	name: "jquery",
-		// 	img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/jquery-logo.png",
-		// 	id: 4
-		// }, 
-		// {
-		// 	name: "javascript",
-		// 	img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/js-logo.png",
-		// 	id: 5
-		// },
-		// {
-		// 	name: "node",
-		// 	img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/nodejs-logo.png",
-		// 	id: 6
-		// },
+		{
+			name: "html5",
+			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/html5-logo.png",
+			id: 3
+		},
+		{
+			name: "jquery",
+			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/jquery-logo.png",
+			id: 4
+		}, 
+		{
+			name: "javascript",
+			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/js-logo.png",
+			id: 5
+		},
+		{
+			name: "node",
+			img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/nodejs-logo.png",
+			id: 6
+		},
 		// {
 		// 	name: "photoshop",
 		// 	img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/74196/photoshop-logo.png",
