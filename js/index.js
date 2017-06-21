@@ -13,9 +13,12 @@
 			this.$modal = $(".modal");
 			this.$overlay = $(".modal-overlay");
 			this.$restartButton = $("button.restart");
+			this.$start = $(".start");
+			this.$startbutton = $(".startbutton");
 			this.cardsArray = $.merge(cards, cards);
 			this.shuffleCards(this.cardsArray);
 			this.setup();
+			this.showStart();
 		},
 		// function for shuffling cards
 		shuffleCards: function(cardsArray){
@@ -33,6 +36,7 @@
 
 		binding: function(){
 			this.$memoryCards.on("click", this.cardClicked);
+			this.$startbutton.on("click", $.proxy(this.reset, this));
 			this.$restartButton.on("click", $.proxy(this.reset, this));
 		},
 		// kinda messy but hey
@@ -62,11 +66,28 @@
 
 		win: function(){
 			this.paused = true;
+			this.hideStart();
 			setTimeout(function(){
 				Memory.showModal();
 				Memory.$game.fadeOut();
 			}, 1000);
 		},
+
+
+
+		// Attempting to build a start modal
+		showStart: function(){
+			this.$overlay.show();
+			this.$start.fadeIn("slow");
+		},
+
+		hideStart: function(){
+			this.$overlay.hide();
+			this.$start.hide();
+		},
+		// Start
+
+
 
 		showModal: function(){
 			this.$overlay.show();
@@ -157,7 +178,7 @@
 			id: 6
 		},
 	];
-    
+    //Memory.showModal();
 	Memory.init(cards);
 
 
