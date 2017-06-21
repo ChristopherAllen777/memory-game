@@ -146,13 +146,13 @@
 		}, 
 		// Army
 		{   
-			name: "”Keeping our military prepared to fight and win – on and under the sea, on land, and in the air, not to mention in cyberspace and outer space – does not happen overnight.”",
+			name: "”Keeping our military prepared to fight and win – on and under the sea, on land, and in the air, not to mention in cyberspace and outer space.”",
 			img: "assets/army.png",
 			id: 5
 		},
 		// Marines
 		{
-			name: "”Keeping our military prepared to fight and win – on and under the sea, on land, and in the air, not to mention in cyberspace and outer space – does not happen overnight.”",
+			name: "”Keeping our military prepared to fight and win – on and under the sea, on land, and in the air, not to mention in cyberspace and outer space.”",
 			img: "assets/marines.png",
 			id: 6
 		},

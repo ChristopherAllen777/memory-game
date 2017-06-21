@@ -70,6 +70,9 @@ body {
   padding: 1px;
   text-align: center;
   font-family: "Futura";
+  font-size: 10pt;
+  letter-spacing: .1px;
+  line-height: 115%;
   display: inline;
   -webkit-perspective: 500px;
           perspective: 500px;
@@ -87,7 +90,9 @@ body {
     -webkit-perspective: 500px;
           perspective: 500px;
     cursor: pointer;
-    font-size: 8pt;
+    font-size: 7.25pt;
+    line-height: 120%;
+    letter-spacing: -.09px;
     padding-bottom: 1px;
   }
   .title {
@@ -126,7 +131,7 @@ body {
           animation-delay: .4s;
 }
 .card .front, .card .back {
-  border: 2px solid black;
+  border: .5px solid black;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   position: absolute;
@@ -136,8 +141,8 @@ body {
   height: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .card .front img {
   max-width: 70%;
@@ -159,15 +164,15 @@ body {
 @media (max-width: 800px) {
   .card .front {
     padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 @media (max-width: 800px) {
   .card .back {
     padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 
