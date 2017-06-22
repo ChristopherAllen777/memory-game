@@ -10,10 +10,10 @@
 		// Setting up for gameplay
 		init: function(cards){
 			this.$game = $(".game");
+			this.$start = $(".start");
 			this.$modal = $(".modal");
 			this.$overlay = $(".modal-overlay");
 			this.$restartButton = $("button.restart");
-			this.$start = $(".start");
 			this.$startbutton = $(".startbutton");
 			this.cardsArray = $.merge(cards, cards);
 			this.shuffleCards(this.cardsArray);
@@ -178,7 +178,6 @@
 			id: 6
 		},
 	];
-    //Memory.showModal();
 	Memory.init(cards);
 
 
