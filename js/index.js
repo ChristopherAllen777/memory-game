@@ -149,7 +149,7 @@
 		},
 		// Navy
 		{
-			name: "”Now more than ever, a strong Navy and Marine Corps are central to our nation’s ability to deter adversaries, assure allies, and defend our national interests.”",
+			name: "”A strong Navy and Marine Corps are central to our nation’s ability to deter adversaries, assure allies, and defend our national interests.”",
 			img: "assets/airforce.png",
 			id: 2
 		},

@@ -79,7 +79,7 @@ body {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-style: normal;
   font-variant: normal;
-  font-size: 10pt;
+  font-size: 11pt;
   letter-spacing: .05px;
   line-height: 18px;
   /*line-height: 115%;*/
@@ -100,7 +100,7 @@ body {
     -webkit-perspective: 500px;
           perspective: 500px;
     cursor: pointer;
-    font-size: 7.25pt;
+    font-size: 7.1pt;
     line-height: 110%;
     letter-spacing: -.09px;
     padding-bottom: 1px;
@@ -155,7 +155,7 @@ body {
   max-width: 57%;
   display: block;
   margin: 0 auto;
-  padding-bottom: 10px;
+  padding-bottom: 2px;
   max-height: 70%;
 }
 .card .back img {
@@ -171,8 +171,8 @@ body {
 @media (max-width: 800px) {
   .card .front {
     padding-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 @media (max-width: 800px) {
@@ -399,7 +399,7 @@ body {
   text-decoration: none;
   border-radius: 5px;
 }
-.modal .social li .fb-share-button{
+.modal .social li .fb-share{
   display: block;
   line-height: 50px;
   font-size: 20px;
