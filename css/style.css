@@ -176,11 +176,7 @@ body {
   }
 }
 
-
-
-
-
-
+/*** Begining Module to Begin Game ***/
 
 .start-overlay {
   display: none;
@@ -193,19 +189,21 @@ body {
 }
 
 .start {
+    border-radius: 15px;
     display: none;
     position: relative;
     width: 506px;
-    height: 485px;
+    height: 303px;
     max-height: 90%;
     max-width: 90%;
-    min-height: 446px;
+    min-height: 390px;
     margin: 0 auto;
+    padding: 20px;
     background: white;
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    padding: 30px 10px;
+    padding: 35px 20px;
 }
 .start .winner {
   font-size: 60px;
@@ -253,17 +251,11 @@ body {
 }
 .start .share-text {
   text-align: center;
-  margin: 10px auto;
+  margin: 30px auto;
+  line-height: 141%;
 }
 
-
-
-
-
-
-
-
-
+/*** Win Module to End Game ***/
 
 .modal-overlay {
   display: none;
@@ -276,6 +268,7 @@ body {
 }
 
 .modal {
+    border-radius: 15px;
     display: none;
     position: relative;
     width: 506px;
@@ -389,9 +382,10 @@ footer {
 }
 footer .disclaimer {
   line-height: 20px;
-  font-size: 12px;
-  color: #727272;
+  font-size: 18px;
+  color: #e9ebee;
   text-align: center;
+  margin-bottom: 20px;
 }
 @media (max-width: 767px) {
   footer .disclaimer {
