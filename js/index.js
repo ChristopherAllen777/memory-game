@@ -147,7 +147,7 @@
 			img: "assets/navy.png",
 			id: 1,
 		},
-		// Navy
+		// // Navy
 		// {
 		// 	name: "”Now more than ever, a strong Navy and Marine Corps are central to our nation’s ability to deter adversaries, assure allies, and defend our national interests.”",
 		// 	img: "assets/airforce.png",
