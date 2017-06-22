@@ -4,7 +4,7 @@
 // best in full screen, works on phones/tablets (min height for game is 500px..) enjoy ;)
 // Follow me on github [ChristopherAllen777] and linkedin
 
-(function(){
+(function(){ 
 	
 	var Memory = {
 		// Setting up for gameplay
@@ -178,7 +178,7 @@
 			id: 6
 		},
 	];
+
 	Memory.init(cards);
-
-
 })();
+
