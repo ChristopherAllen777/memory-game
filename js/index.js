@@ -148,35 +148,35 @@
 			id: 1,
 		},
 		// // Navy
-		// {
-		// 	name: "”A strong Navy and Marine Corps are central to our nation’s ability to deter adversaries, assure allies, and defend our national interests.”",
-		// 	img: "assets/airforce.png",
-		// 	id: 2
-		// },
-		// // Coast Guard
-		// {
-		// 	name: "”The Coast Guard is charged with protecting America’s coastline, waterways, and ports, as well as executing security operations around the world.”",
-		// 	img: "assets/coastguard.png",
-		// 	id: 3
-		// },
-		// // Navy
-		// {
-		// 	name: "”We need a bigger and more capable Navy. Ships and aircraft should be better connected across platforms and warfighting domains.”",
-		// 	img: "assets/specialforces.png",
-		// 	id: 4
-		// }, 
-		// // Army
-		// {   
-		// 	name: "”Keeping our military prepared to fight and win – on and under the sea, on land, and in the air, not to mention in cyberspace and outer space.”",
-		// 	img: "assets/army.png",
-		// 	id: 5
-		// },
-		// // Marines
-		// {
-		// 	name: "”Keeping our military prepared to fight and win – on and under the sea, on land, and in the air, not to mention in cyberspace and outer space.”",
-		// 	img: "assets/marines.png",
-		// 	id: 6
-		// },
+		{
+			name: "”A strong Navy and Marine Corps are central to our nation’s ability to deter adversaries, assure allies, and defend our national interests.”",
+			img: "assets/airforce.png",
+			id: 2
+		},
+		// Coast Guard
+		{
+			name: "”The Coast Guard is charged with protecting America’s coastline, waterways, and ports, as well as executing security operations around the world.”",
+			img: "assets/coastguard.png",
+			id: 3
+		},
+		// Navy
+		{
+			name: "”We need a bigger and more capable Navy. Ships and aircraft should be better connected across platforms and warfighting domains.”",
+			img: "assets/specialforces.png",
+			id: 4
+		}, 
+		// Army
+		{   
+			name: "”Keeping our military prepared to fight and win – on and under the sea, on land, and in the air, not to mention in cyberspace and outer space.”",
+			img: "assets/army.png",
+			id: 5
+		},
+		// Marines
+		{
+			name: "”Keeping our military prepared to fight and win – on and under the sea, on land, and in the air, not to mention in cyberspace and outer space.”",
+			img: "assets/marines.png",
+			id: 6
+		},
 	];
 
 	Memory.init(cards);
