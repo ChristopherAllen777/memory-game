@@ -50,7 +50,7 @@ body {
     min-height: 107%;
     max-height: 107%;
     height: 100%;
-    padding: 14px;
+    padding: 20px;
     margin-top: 0px;
 }
 
@@ -233,7 +233,7 @@ body {
     height: 295px;
     max-height: 90%;
     max-width: 90%;
-    min-height: 403px;
+    min-height: 351px;
     margin: 0 auto;
     padding: 20px;
     background: white;
@@ -243,7 +243,7 @@ body {
     padding: 27px 20px;
 }
 .start .winner {
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     font-family: "Anton", sans-serif;
     color: #4d4d4d;
@@ -256,7 +256,7 @@ body {
 .start .startbutton {
   font-family: "Anton", sans-serif;
   margin: 30px auto;
-  padding: 20px 30px;
+  padding: 15px 30px;
   display: block;
   font-size: 30px;
   border: none;
@@ -290,7 +290,7 @@ body {
   text-align: center;
   margin: 30px auto;
   line-height: 141%;
-  font-size: 12pt;
+  font-size: 11pt;
 
 }
 
@@ -321,9 +321,10 @@ body {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     padding: 5px;
-    padding-top: 33px;
+    padding-top: 50px;
     padding-left: 28px;
     padding-right: 28px;
+    padding-bottom: 28px;
 }
 .modal .winner {
   font-size: 80px;
@@ -334,7 +335,7 @@ body {
 }
 @media (max-width: 480px) {
   .modal .winner {
-    font-size: 60px;
+    font-size: 55px;
   }
 }
 .modal .restart {
@@ -376,12 +377,17 @@ body {
   float: right;
 }
 div.fb-follow {
-  padding-right: 200px;
+  width: 70px ;
+  margin-left: auto ;
+  margin-right: auto ;
   margin: 0 auto;
 }
 @media (max-width: 800px){
-div.fb-follow{
-  padding-right: 100px;
+div.fb-follow {
+  width: 78px ;
+  margin-left: auto ;
+  margin-right: auto ;
+  margin: 0 auto;
 }
 }
 .modal .share{
