@@ -1,5 +1,5 @@
 @import url(http://weloveiconfonts.com/api/?family=brandico);
- brandico 
+/* brandico */
 [class*="brandico-"]:before {
   font-family: 'brandico', sans-serif;
 }
@@ -116,6 +116,7 @@ body {
   padding: 10px;
   margin-bottom: .1px;
 }
+
 }
 .card .inside {
   width: 100%;
@@ -151,8 +152,18 @@ body {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+.card .front img {
+  max-width: 85%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-height: 70%;
+}
+
 @media (max-width: 800px) {
-  .card .front, .card .back {
+.card .front, .card .back {
   border: .5px solid black;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -166,17 +177,6 @@ body {
   padding-left: 10px;
   padding-right: 10px;
 }
-}
-
-.card .front img {
-  max-width: 85%;
-  display: block;
-  margin: 0 auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  max-height: 70%;
-}
-@media (max-width: 800px) {
 .card .front img {
   max-width: 85%;
   display: block;
@@ -241,11 +241,10 @@ body {
     padding: 35px 20px;
 }
 .start .winner {
-  font-size: 60px;
-  text-align: center;
-  font-family: "Anton", sans-serif;
-  color: #4d4d4d;
-  text-shadow: 0px 3px 0 black;
+    font-size: 45px;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    color: #4d4d4d;
 }
 @media (max-width: 480px) {
   .modal .winner {
@@ -306,8 +305,8 @@ body {
     border-radius: 15px;
     display: none;
     position: relative;
-    width: 506px;
-    height: 515px;
+    width: 529px;
+    height: 561px;
     max-height: 90%;
     max-width: 90%;
     min-height: 446px;
@@ -316,7 +315,10 @@ body {
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    padding: 30px 10px;
+    padding: 5px;
+    padding-top: 33px;
+    padding-left: 28px;
+    padding-right: 28px;
 }
 .modal .winner {
   font-size: 80px;
@@ -368,6 +370,15 @@ body {
   text-align: center;
   float: right;
 }
+div.fb-follow {
+  padding-right: 200px;
+  margin: 0 auto;
+}
+@media (max-width: 800px){
+div.fb-follow{
+  padding-right: 100px;
+}
+}
 .modal .share{
   display: inline-block;
   margin: 20px auto;
@@ -388,10 +399,10 @@ body {
 }
 .modal .social li:last-child {
     margin-right: 0;
-    margin-left: 25px;
+    margin-left: 9px;
     margin: top;
-    margin-top: 6px;
-    padding-top: 13px;
+    margin-top: 0px;
+    padding-top: 23px;
 }
 .modal .social li a {
   display: block;
