@@ -43,14 +43,15 @@ body {
 }
 
 .game {
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  -webkit-perspective: 500px;
-          perspective: 500px;
-  min-height: 107%;
-  max-height: 107%;
-  height: 107%;
-  padding: 4px;
+-webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective: 500px;
+    perspective: 487px;
+    min-height: 107%;
+    max-height: 107%;
+    height: 100%;
+    padding: 14px;
+    margin-top: 0px;
 }
 
 @-webkit-keyframes matchAnim {
@@ -71,6 +72,7 @@ body {
   }
 }
 .card {
+  border-radius: 15px;
   float: left;
   width: 16.666%;
   height: 48.2%;
@@ -94,7 +96,7 @@ body {
 @media (max-width: 800px) {
   .card {
     width: 33.3%;
-    height: 23.999%;
+    height: 24.1%;
     text-align: center;
     display: inline;
     -webkit-perspective: 500px;
@@ -228,17 +230,17 @@ body {
     display: none;
     position: relative;
     width: 506px;
-    height: 303px;
+    height: 295px;
     max-height: 90%;
     max-width: 90%;
-    min-height: 432px;
+    min-height: 403px;
     margin: 0 auto;
     padding: 20px;
     background: white;
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    padding: 35px 20px;
+    padding: 27px 20px;
 }
 .start .winner {
     font-size: 45px;
@@ -273,6 +275,7 @@ body {
 }
 .start .message {
   text-align: center;
+  font-size: 12pt;
 }
 .start .message a {
   text-decoration: none;
@@ -287,6 +290,8 @@ body {
   text-align: center;
   margin: 30px auto;
   line-height: 141%;
+  font-size: 12pt;
+
 }
 
 /*** Win Module to End Game ***/

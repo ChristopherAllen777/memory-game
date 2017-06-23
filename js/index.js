@@ -143,7 +143,7 @@
 
 		// Navy Ships
 		{
-			name: "NAVY SHIPS",
+			name: "NAVY",
 			img: "assets/navy.png",
 			id: 1,
 		},
