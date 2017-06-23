@@ -141,42 +141,42 @@
 
 	var cards = [
 
-		// Air Force
+		// Navy Ships
 		{
-			name: "“It is clear that our current fleet of 275 ships is insufficient to address the security challenges we face today.”",
+			name: "NAVY SHIPS",
 			img: "assets/navy.png",
 			id: 1,
 		},
-		// // Navy
-		// {
-		// 	name: "”A strong Navy and Marine Corps are central to our nation’s ability to deter adversaries, assure allies, and defend our national interests.”",
-		// 	img: "assets/airforce.png",
-		// 	id: 2
-		// },
-		// // Coast Guard
-		// {
-		// 	name: "”The Coast Guard is charged with protecting America’s coastline, waterways, and ports, as well as executing security operations around the world.”",
-		// 	img: "assets/coastguard.png",
-		// 	id: 3
-		// },
-		// // Navy
-		// {
-		// 	name: "”We need a bigger and more capable Navy. Ships and aircraft should be better connected across platforms and warfighting domains.”",
-		// 	img: "assets/specialforces.png",
-		// 	id: 4
-		// }, 
-		// // Army
-		// {   
-		// 	name: "”Keeping our military prepared to fight and win – on and under the sea, on land, and in the air, not to mention in cyberspace and outer space.”",
-		// 	img: "assets/army.png",
-		// 	id: 5
-		// },
-		// // Marines
-		// {
-		// 	name: "”Keeping our military prepared to fight and win – on and under the sea, on land, and in the air, not to mention in cyberspace and outer space.”",
-		// 	img: "assets/marines.png",
-		// 	id: 6
-		// },
+		// Air Force
+		{
+			name: "AIR FORCE",
+			img: "assets/airforce.png",
+			id: 2
+		},
+		// Coast Guard
+		{
+			name: "COAST GUARD",
+			img: "assets/coastguard.png",
+			id: 3
+		},
+		// Special Forces
+		{
+			name: "SPECIAL FORCES",
+			img: "assets/specialforces.png",
+			id: 4
+		}, 
+		// Army
+		{   
+			name: "ARMY",
+			img: "assets/army.png",
+			id: 5
+		},
+		// Marines
+		{
+			name: "MARINES",
+			img: "assets/marines.png",
+			id: 6
+		},
 	];
 
 	Memory.init(cards);
