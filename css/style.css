@@ -50,7 +50,7 @@ body {
     min-height: 107%;
     max-height: 107%;
     height: 100%;
-    padding: 20px;
+    padding: 15px;
     margin-top: 0px;
 }
 
@@ -399,7 +399,7 @@ div.fb-follow {
   margin: 10px auto;
 }
 .modal .social {
-    margin: 20px 0px 50px 0px;
+    margin: 0px 0px 25px 0px;
     text-align: center;
 }
 .modal .social li {
@@ -409,13 +409,14 @@ div.fb-follow {
     width: 50px;
 }
 .modal .social li:last-child {
+    margin-bottom: 41px;
     margin-right: 0;
     margin-left: 9px;
     margin: top;
     margin-top: 0px;
     padding-top: 23px;
 }
-.modal .social li a {
+/*.modal .social li a {
   display: block;
   line-height: 50px;
   font-size: 20px;
@@ -440,7 +441,7 @@ div.fb-follow {
 }
 .modal .social li a.twitter:hover {
   background: #73b4ff;
-}
+}*/
 .modal .social li .fbshare{
   display: block;
   line-height: 50px;
