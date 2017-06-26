@@ -71,6 +71,8 @@ body {
     background: #bf2f2f;
   }
 }
+/*** Card Dimentions ***/
+
 .card {
   border-radius: 15px;
   float: left;
@@ -242,7 +244,7 @@ body {
     transform: translateY(-50%);
     padding: 27px 20px;
 }
-.start .winner {
+.start #winner {
     font-size: 40px;
     text-align: center;
     font-family: "Anton", sans-serif;

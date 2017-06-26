@@ -1,8 +1,8 @@
 // Memory Game
 // © 2017 Chris Allen
-// License -- Harris Media Roger Wicker
+// License -- Harris Media Roger Wicker For Senator
 // best in full screen, works on phones/tablets (min height for game is 500px..) enjoy ;)
-// Follow me on github [ChristopherAllen777] and linkedin
+// Follow me on github [ChristopherAllen777]
 
 (function(){ 
 	
