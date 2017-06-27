@@ -148,35 +148,35 @@
 			id: 1,
 		},
 		// // Air Force
-		// {
-		// 	name: "AIR FORCE",
-		// 	img: "assets/airforce.png",
-		// 	id: 2
-		// },
-		// // Coast Guard
-		// {
-		// 	name: "COAST GUARD",
-		// 	img: "assets/coastguard.png",
-		// 	id: 3
-		// },
-		// // Army National Guard
-		// {
-		// 	name: "NATIONAL GUARD",
-		// 	img: "assets/nationalguard.png",
-		// 	id: 4
-		// }, 
-		// // Army
-		// {   
-		// 	name: "ARMY",
-		// 	img: "assets/army.png",
-		// 	id: 5
-		// },
-		// // Marines
-		// {
-		// 	name: "MARINES",
-		// 	img: "assets/marines.png",
-		// 	id: 6
-		// },
+		{
+			name: "AIR FORCE",
+			img: "assets/airforce.png",
+			id: 2
+		},
+		// Coast Guard
+		{
+			name: "COAST GUARD",
+			img: "assets/coastguard.png",
+			id: 3
+		},
+		// Army National Guard
+		{
+			name: "NATIONAL GUARD",
+			img: "assets/nationalguard.png",
+			id: 4
+		}, 
+		// Army
+		{   
+			name: "ARMY",
+			img: "assets/army.png",
+			id: 5
+		},
+		// Marines
+		{
+			name: "MARINES",
+			img: "assets/marines.png",
+			id: 6
+		},
 	];
 
 	Memory.init(cards);
