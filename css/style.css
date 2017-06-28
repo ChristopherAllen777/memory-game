@@ -183,7 +183,7 @@ body {
   padding-right: 10px;
 }
 .card .front img {
-    max-width: 100%;
+    max-width: 95%;
     display: block;
     margin: 0 auto;
     padding-top: 0px;
@@ -200,7 +200,8 @@ body {
 .card .front {
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
-          padding-top: 39px;
+  padding-top: 61px;
+  padding-bottom: 40px;
 }
 .card .back {
   padding-bottom: 60px;
@@ -217,7 +218,7 @@ body {
     padding-bottom: 10px;
     padding-left: 7px;
     padding-right: 7px;
-    padding-top: 5px;
+    padding-top: 8px;
   }
 }
 @media (max-width: 800px) {
