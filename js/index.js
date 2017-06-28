@@ -181,4 +181,3 @@
 
 	Memory.init(cards);
 })();
-
