@@ -141,7 +141,7 @@
 
 	var cards = [
 
-		// We The People
+		// Iwo Jima - Fight
 		{
 			name: "Through The Perilous Fight",
 			img: "assets/fight.png",
@@ -149,7 +149,7 @@
 		},
 		// Bombs Bursting
 		{
-			name: "The Bombs Bursting In Air…",
+			name: "The Bombs Bursting In Air",
 			img: "assets/bombsbursting.png",
 			id: 2
 		},
@@ -159,19 +159,19 @@
 			img: "assets/starsandstripes.png",
 			id: 3
 		},
-		// Army National Guard
+		// Dawns early light
 		{
 			name: "By The Dawn’s Early Light",
 			img: "assets/dawn.png",
 			id: 4
 		}, 
-		// Army
+		// Land of the free
 		{   
 			name: "Land Of The Free",
 			img: "assets/free.png",
 			id: 5
 		},
-		// Marines
+		// Home of the brave
 		{
 			name: "Home Of The Brave",
 			img: "assets/brave.png",

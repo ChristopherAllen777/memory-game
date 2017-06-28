@@ -248,7 +248,7 @@ body {
     height: 295px;
     max-height: 90%;
     max-width: 90%;
-    min-height: 351px;
+    min-height: 375px;
     margin: 0 auto;
     padding: 20px;
     background: white;
@@ -257,21 +257,26 @@ body {
     transform: translateY(-50%);
     padding: 27px 20px;
 }
+@media (max-width: 800) {
+  .start #winner {
+    font-size: 12pt;
+  }
+}
 .start #winner {
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     font-family: "Anton", sans-serif;
     color: #bf2f2f;
     line-height: 111%;
 }
-@media (max-width: 480px) {
+@media (max-width: 800px) {
   .modal .winner {
     font-size: 60px;
   }
 }
 .start .startbutton {
   font-family: "Anton", sans-serif;
-  margin: 30px auto;
+  margin: 16px auto;
   padding: 15px 30px;
   display: block;
   font-size: 30px;
@@ -304,10 +309,16 @@ body {
 }
 .start .share-text {
   text-align: center;
-  margin: 30px auto;
+  margin: 10px auto;
   line-height: 141%;
   font-size: 11pt;
-
+}
+.start .share-text-bold {
+    text-align: center;
+    margin: 16px auto;
+    line-height: 141%;
+    font-size: 11pt;
+    font-weight: bold;
 }
 
 /*** Win Module to End Game ***/
@@ -343,7 +354,7 @@ body {
     padding-bottom: 28px;
 }
 .modal .winner {
-  font-size: 80px;
+  font-size: 55px;
   text-align: center;
   font-family: "Anton", sans-serif;
   color: #bf2f2f;
@@ -351,13 +362,13 @@ body {
 }
 @media (max-width: 480px) {
   .modal .winner {
-    font-size: 55px;
+    font-size: 36px;
   }
 }
 .modal .restart {
   font-family: "Anton", sans-serif;
   margin: 30px auto;
-  padding: 25px 30px;
+  padding: 10px 30px;
   display: block;
   font-size: 30px;
   border: none;
@@ -411,6 +422,7 @@ div.fb-follow {
   margin: 20px auto;
 }
 .modal .share-text {
+  font-size: 10pt;
   text-align: center;
   margin: 10px auto;
 }
@@ -431,6 +443,9 @@ div.fb-follow {
     margin: top;
     margin-top: 0px;
     padding-top: 23px;
+}
+.modal .socials {
+  padding-top: 6px;
 }
 /*.modal .social li a {
   display: block;
