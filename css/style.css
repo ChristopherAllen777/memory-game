@@ -74,26 +74,27 @@ body {
 /*** Card Dimentions ***/
 
 .card {
-  border-radius: 15px;
-  float: left;
-  width: 16.666%;
-  height: 48.2%;
-  padding: 1px;
-  text-align: center;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  font-style: normal;
-  font-variant: normal;
-  font-size: 11pt;
-  letter-spacing: .05px;
-  line-height: 18px;
-  /*line-height: 115%;*/
-  display: inline;
-  -webkit-perspective: 500px;
-          perspective: 500px;
-  position: relative;
-  cursor: pointer;
-  z-index: 50;
-  -webkit-tap-highlight-color: transparent;
+    border-radius: 15px;
+    float: left;
+    width: 16.666%;
+    height: 48.2%;
+    padding: 1px;
+    text-align: center;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 15pt;
+    letter-spacing: 0.05px;
+    line-height: 30px;
+    /* line-height: 115%; */
+    display: inline;
+    /* padding-top: 28px; */
+    -webkit-perspective: 500px;
+    perspective: 500px;
+    position: relative;
+    cursor: pointer;
+    z-index: 50;
+    -webkit-tap-highlight-color: transparent;
 }
 @media (max-width: 800px) {
   .card {
@@ -104,7 +105,7 @@ body {
     -webkit-perspective: 500px;
           perspective: 500px;
     cursor: pointer;
-    font-size: 10pt;
+    font-size: 9pt;
     font-weight: 400;
     line-height: 110%;
     letter-spacing: -.09px;
@@ -182,12 +183,12 @@ body {
   padding-right: 10px;
 }
 .card .front img {
-  max-width: 85%;
-  display: block;
-  margin: 0 auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  max-height: 70%;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    max-height: 81%;
 }
 }
 .card .back img {
@@ -199,12 +200,24 @@ body {
 .card .front {
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
+          padding-top: 39px;
+}
+.card .back {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+@media (max-width: 800px) {
+  .card .back {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
 }
 @media (max-width: 800px) {
   .card .front {
     padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
   }
 }
 @media (max-width: 800px) {
@@ -248,7 +261,8 @@ body {
     font-size: 40px;
     text-align: center;
     font-family: "Anton", sans-serif;
-    color: #4d4d4d;
+    color: #bf2f2f;
+    line-height: 111%;
 }
 @media (max-width: 480px) {
   .modal .winner {
@@ -264,7 +278,7 @@ body {
   border: none;
   background: #4d4d4d;
   background: -webkit-linear-gradient(#4d4d4d, #222);
-  background: linear-gradient(#4d4d4d, #222);
+  background: linear-gradient(#0a4692, #222);
   border: 1px solid #222;
   border-radius: 5px;
   color: white;
@@ -332,8 +346,8 @@ body {
   font-size: 80px;
   text-align: center;
   font-family: "Anton", sans-serif;
-  color: #4d4d4d;
-  text-shadow: 0px 3px 0 black;
+  color: #bf2f2f;
+  text-shadow: 0px 3px 0 #ced0d4;
 }
 @media (max-width: 480px) {
   .modal .winner {
@@ -349,7 +363,7 @@ body {
   border: none;
   background: #4d4d4d;
   background: -webkit-linear-gradient(#4d4d4d, #222);
-  background: linear-gradient(#4d4d4d, #222);
+  background: linear-gradient(#0a4692, #222);
   border: 1px solid #222;
   border-radius: 5px;
   color: white;

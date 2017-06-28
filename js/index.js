@@ -141,40 +141,40 @@
 
 	var cards = [
 
-		// Navy
+		// We The People
 		{
-			name: "NAVY",
-			img: "assets/navy.png",
+			name: "Through The Perilous Fight",
+			img: "assets/fight.png",
 			id: 1,
 		},
-		// // Air Force
+		// Bombs Bursting
 		{
-			name: "AIR FORCE",
-			img: "assets/airforce.png",
+			name: "The Bombs Bursting In Air…",
+			img: "assets/bombsbursting.png",
 			id: 2
 		},
-		// Coast Guard
+		// Broad Stripes & Stars
 		{
-			name: "COAST GUARD",
-			img: "assets/coastguard.png",
+			name: "Broad Stripes and Bright Stars",
+			img: "assets/starsandstripes.png",
 			id: 3
 		},
 		// Army National Guard
 		{
-			name: "NATIONAL GUARD",
-			img: "assets/nationalguard.png",
+			name: "By The Dawn’s Early Light",
+			img: "assets/dawn.png",
 			id: 4
 		}, 
 		// Army
 		{   
-			name: "ARMY",
-			img: "assets/army.png",
+			name: "Land Of The Free",
+			img: "assets/free.png",
 			id: 5
 		},
 		// Marines
 		{
-			name: "MARINES",
-			img: "assets/marines.png",
+			name: "Home Of The Brave",
+			img: "assets/brave.png",
 			id: 6
 		},
 	];
