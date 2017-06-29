@@ -18,7 +18,7 @@
 			this.cardsArray = $.merge(cards, cards);
 			this.shuffleCards(this.cardsArray);
 			this.setup();
-			this.showStart();
+			// this.showStart();
 		},
 		// function for shuffling cards
 		shuffleCards: function(cardsArray){
