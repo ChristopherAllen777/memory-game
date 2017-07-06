@@ -1,7 +1,7 @@
 // Memory Game
 // © 2017 Chris Allen
-// License -- Harris Media Roger Wicker For Senator
-// best in full screen, works on phones/tablets (min height for game is 500px..) enjoy ;)
+// License - Harris Media: Roger Wicker For Senator
+// best in full screen, works on phones/tablets (min height for game is 500px..) enjoy!
 // Follow me on github [ChristopherAllen777]
 
 (function(){ 
@@ -18,13 +18,13 @@
 			this.cardsArray = $.merge(cards, cards);
 			this.shuffleCards(this.cardsArray);
 			this.setup();
-			// this.showStart();
+			// this.showStart(); // Uncomment this out for the Start Modal to display message and start button
 		},
 		// function for shuffling cards
 		shuffleCards: function(cardsArray){
 			this.$cards = $(this.shuffle(this.cardsArray));
 		},
-
+		// function that builds out the visible html of the game.
 		setup: function(){
 			this.html = this.buildHTML();
 			this.$game.html(this.html);
@@ -33,7 +33,7 @@
 			this.paused = false;
      		this.guess = null;
 		},
-
+		// on 'click' event delegations for game play
 		binding: function(){
 			this.$memoryCards.on("click", this.cardClicked);
 			this.$startbutton.on("click", $.proxy(this.reset, this));
@@ -64,6 +64,7 @@
 			}
 		},
 
+		// function called when all cards are matched. User wins and shows end modal for socials and to play again.
 		win: function(){
 			this.paused = true;
 			this.hideStart();
@@ -73,9 +74,7 @@
 			}, 1000);
 		},
 
-
-
-		// Attempting to build a start modal
+		// start modal used if developer wants a message displayed with start button
 		showStart: function(){
 			this.$overlay.show();
 			this.$start.fadeIn("slow");
@@ -85,10 +84,7 @@
 			this.$overlay.hide();
 			this.$start.hide();
 		},
-		// Start
-
-
-
+		// Modal shows when user wins. Gives links to socials and can share game via Facebook Share button plug in.
 		showModal: function(){
 			this.$overlay.show();
 			this.$modal.fadeIn("slow");
@@ -98,7 +94,7 @@
 			this.$overlay.hide();
 			this.$modal.hide();
 		},
-
+		// resets the game by hidding the end modal and shuffling cards to beggining setup function.
 		reset: function(){
 			this.hideModal();
 			this.shuffleCards(this.cardsArray);
@@ -123,8 +119,7 @@
 	    	return array;
 		},
 
-
-		// Correct build function()
+		// Correct HTML build function()
 		buildHTML: function(){
 			var frag = '';
 			this.$cards.each(function(k, v){
@@ -139,6 +134,8 @@
 		}
 	};// var Memory = {} end tag
 
+
+	// cards Array for gameplay cards.
 	var cards = [
 
 		// Iwo Jima - Fight
@@ -178,6 +175,6 @@
 			id: 6
 		},
 	];
-
+	// Function called to start the entire game
 	Memory.init(cards);
 })();
